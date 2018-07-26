@@ -66,6 +66,10 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
++ (void)load {
+    [[GDPerformanceMonitor sharedInstance] startMonitoring];
+}
+
 #pragma mark -
 #pragma mark - Notifications & Observers
 

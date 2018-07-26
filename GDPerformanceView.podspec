@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Gavrilov Daniil" => "daniilmbox@gmail.com" }
   s.platform     = :ios, "8.0"
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/dani-gavrilov/GDPerformanceView.git", :tag => "1.3.1" }
   s.source_files = "GDPerformanceView/GDPerformanceMonitoring/*"
   s.frameworks = "UIKit", "Foundation", "QuartzCore"  
