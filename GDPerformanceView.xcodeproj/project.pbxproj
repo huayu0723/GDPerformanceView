@@ -3,43 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4277368A1E2BD55100E59793 /* GDWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427736891E2BD55100E59793 /* GDWindowViewController.m */; };
-		A537615E1DB76D81000007B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53761511DB76D81000007B7 /* AppDelegate.m */; };
-		A537615F1DB76D81000007B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53761521DB76D81000007B7 /* Assets.xcassets */; };
-		A53761601DB76D81000007B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53761531DB76D81000007B7 /* LaunchScreen.storyboard */; };
-		A53761611DB76D81000007B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53761551DB76D81000007B7 /* Main.storyboard */; };
-		A53761621DB76D81000007B7 /* GDPerformanceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A53761591DB76D81000007B7 /* GDPerformanceMonitor.m */; };
-		A53761631DB76D81000007B7 /* GDPerformanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A537615B1DB76D81000007B7 /* GDPerformanceView.m */; };
-		A53761651DB76D81000007B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A537615D1DB76D81000007B7 /* main.m */; };
-		A5DAC0811DB7B1A600AF26E6 /* GDMarginLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DAC0801DB7B1A600AF26E6 /* GDMarginLabel.m */; };
+		E6DA88C1212E8D7D00A90170 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6DA88C0212E8D7D00A90170 /* Info.plist */; };
+		E6E8BF6F211980AA0088E407 /* GDPerformanceView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E8BF66211980AA0088E407 /* GDPerformanceView.h */; };
+		E6E8BF70211980AA0088E407 /* GDMarginLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E8BF67211980AA0088E407 /* GDMarginLabel.h */; };
+		E6E8BF71211980AA0088E407 /* GDPerformanceMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E8BF68211980AA0088E407 /* GDPerformanceMonitor.h */; };
+		E6E8BF72211980AA0088E407 /* GDWindowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E8BF69211980AA0088E407 /* GDWindowViewController.h */; };
+		E6E8BF73211980AA0088E407 /* GDPerformanceMonitorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E8BF6A211980AA0088E407 /* GDPerformanceMonitorProtocol.h */; };
+		E6E8BF74211980AA0088E407 /* GDPerformanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E8BF6B211980AA0088E407 /* GDPerformanceView.m */; };
+		E6E8BF75211980AA0088E407 /* GDPerformanceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E8BF6C211980AA0088E407 /* GDPerformanceMonitor.m */; };
+		E6E8BF76211980AA0088E407 /* GDMarginLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E8BF6D211980AA0088E407 /* GDMarginLabel.m */; };
+		E6E8BF77211980AA0088E407 /* GDWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E8BF6E211980AA0088E407 /* GDWindowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		427736881E2BD55100E59793 /* GDWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWindowViewController.h; sourceTree = "<group>"; };
-		427736891E2BD55100E59793 /* GDWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWindowViewController.m; sourceTree = "<group>"; };
-		428FE57D1E1D19D100F85C8B /* GDPerformanceMonitorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPerformanceMonitorProtocol.h; sourceTree = "<group>"; };
-		A53761501DB76D81000007B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A53761511DB76D81000007B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A53761521DB76D81000007B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A53761541DB76D81000007B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A53761561DB76D81000007B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A53761581DB76D81000007B7 /* GDPerformanceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPerformanceMonitor.h; sourceTree = "<group>"; };
-		A53761591DB76D81000007B7 /* GDPerformanceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPerformanceMonitor.m; sourceTree = "<group>"; };
-		A537615A1DB76D81000007B7 /* GDPerformanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPerformanceView.h; sourceTree = "<group>"; };
-		A537615B1DB76D81000007B7 /* GDPerformanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPerformanceView.m; sourceTree = "<group>"; };
-		A537615C1DB76D81000007B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A537615D1DB76D81000007B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5C8CEBE1DB6203D008D8E15 /* GDPerformanceView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDPerformanceView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5DAC07F1DB7B1A600AF26E6 /* GDMarginLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMarginLabel.h; sourceTree = "<group>"; };
-		A5DAC0801DB7B1A600AF26E6 /* GDMarginLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMarginLabel.m; sourceTree = "<group>"; };
+		E6DA88C0212E8D7D00A90170 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E8BF4B211980490088E407 /* GDPerformaceView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDPerformaceView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E8BF66211980AA0088E407 /* GDPerformanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPerformanceView.h; sourceTree = "<group>"; };
+		E6E8BF67211980AA0088E407 /* GDMarginLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMarginLabel.h; sourceTree = "<group>"; };
+		E6E8BF68211980AA0088E407 /* GDPerformanceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPerformanceMonitor.h; sourceTree = "<group>"; };
+		E6E8BF69211980AA0088E407 /* GDWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWindowViewController.h; sourceTree = "<group>"; };
+		E6E8BF6A211980AA0088E407 /* GDPerformanceMonitorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPerformanceMonitorProtocol.h; sourceTree = "<group>"; };
+		E6E8BF6B211980AA0088E407 /* GDPerformanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPerformanceView.m; sourceTree = "<group>"; };
+		E6E8BF6C211980AA0088E407 /* GDPerformanceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPerformanceMonitor.m; sourceTree = "<group>"; };
+		E6E8BF6D211980AA0088E407 /* GDMarginLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMarginLabel.m; sourceTree = "<group>"; };
+		E6E8BF6E211980AA0088E407 /* GDWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWindowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A5C8CEBB1DB6203D008D8E15 /* Frameworks */ = {
+		E6E8BF47211980490088E407 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,184 +44,173 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A537614F1DB76D81000007B7 /* GDPerformanceView */ = {
+		E6E8BF41211980490088E407 = {
 			isa = PBXGroup;
 			children = (
-				A53761571DB76D81000007B7 /* GDPerformanceMonitoring */,
-				A53761501DB76D81000007B7 /* AppDelegate.h */,
-				A53761511DB76D81000007B7 /* AppDelegate.m */,
-				A53761521DB76D81000007B7 /* Assets.xcassets */,
-				A53761531DB76D81000007B7 /* LaunchScreen.storyboard */,
-				A53761551DB76D81000007B7 /* Main.storyboard */,
-				A537615C1DB76D81000007B7 /* Info.plist */,
-				A537615D1DB76D81000007B7 /* main.m */,
-			);
-			path = GDPerformanceView;
-			sourceTree = "<group>";
-		};
-		A53761571DB76D81000007B7 /* GDPerformanceMonitoring */ = {
-			isa = PBXGroup;
-			children = (
-				A53761581DB76D81000007B7 /* GDPerformanceMonitor.h */,
-				A53761591DB76D81000007B7 /* GDPerformanceMonitor.m */,
-				A537615A1DB76D81000007B7 /* GDPerformanceView.h */,
-				A537615B1DB76D81000007B7 /* GDPerformanceView.m */,
-				A5DAC07F1DB7B1A600AF26E6 /* GDMarginLabel.h */,
-				A5DAC0801DB7B1A600AF26E6 /* GDMarginLabel.m */,
-				427736881E2BD55100E59793 /* GDWindowViewController.h */,
-				427736891E2BD55100E59793 /* GDWindowViewController.m */,
-				428FE57D1E1D19D100F85C8B /* GDPerformanceMonitorProtocol.h */,
-			);
-			path = GDPerformanceMonitoring;
-			sourceTree = "<group>";
-		};
-		A5C8CEB51DB6203D008D8E15 = {
-			isa = PBXGroup;
-			children = (
-				A537614F1DB76D81000007B7 /* GDPerformanceView */,
-				A5C8CEBF1DB6203D008D8E15 /* Products */,
+				E6E8BF65211980AA0088E407 /* GDPerformanceMonitoring */,
+				E6E8BF4C211980490088E407 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A5C8CEBF1DB6203D008D8E15 /* Products */ = {
+		E6E8BF4C211980490088E407 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5C8CEBE1DB6203D008D8E15 /* GDPerformanceView.app */,
+				E6E8BF4B211980490088E407 /* GDPerformaceView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E6E8BF65211980AA0088E407 /* GDPerformanceMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA88C0212E8D7D00A90170 /* Info.plist */,
+				E6E8BF66211980AA0088E407 /* GDPerformanceView.h */,
+				E6E8BF67211980AA0088E407 /* GDMarginLabel.h */,
+				E6E8BF68211980AA0088E407 /* GDPerformanceMonitor.h */,
+				E6E8BF69211980AA0088E407 /* GDWindowViewController.h */,
+				E6E8BF6A211980AA0088E407 /* GDPerformanceMonitorProtocol.h */,
+				E6E8BF6B211980AA0088E407 /* GDPerformanceView.m */,
+				E6E8BF6C211980AA0088E407 /* GDPerformanceMonitor.m */,
+				E6E8BF6D211980AA0088E407 /* GDMarginLabel.m */,
+				E6E8BF6E211980AA0088E407 /* GDWindowViewController.m */,
+			);
+			name = GDPerformanceMonitoring;
+			path = GDPerformanceView/GDPerformanceMonitoring;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		E6E8BF48211980490088E407 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E8BF72211980AA0088E407 /* GDWindowViewController.h in Headers */,
+				E6E8BF71211980AA0088E407 /* GDPerformanceMonitor.h in Headers */,
+				E6E8BF70211980AA0088E407 /* GDMarginLabel.h in Headers */,
+				E6E8BF6F211980AA0088E407 /* GDPerformanceView.h in Headers */,
+				E6E8BF73211980AA0088E407 /* GDPerformanceMonitorProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		A5C8CEBD1DB6203D008D8E15 /* GDPerformanceView */ = {
+		E6E8BF4A211980490088E407 /* GDPerformaceView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5C8CED51DB6203D008D8E15 /* Build configuration list for PBXNativeTarget "GDPerformanceView" */;
+			buildConfigurationList = E6E8BF5F211980490088E407 /* Build configuration list for PBXNativeTarget "GDPerformaceView" */;
 			buildPhases = (
-				A5C8CEBA1DB6203D008D8E15 /* Sources */,
-				A5C8CEBB1DB6203D008D8E15 /* Frameworks */,
-				A5C8CEBC1DB6203D008D8E15 /* Resources */,
+				E6E8BF46211980490088E407 /* Sources */,
+				E6E8BF47211980490088E407 /* Frameworks */,
+				E6E8BF48211980490088E407 /* Headers */,
+				E6E8BF49211980490088E407 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GDPerformanceView;
-			productName = FSPerfomanceView;
-			productReference = A5C8CEBE1DB6203D008D8E15 /* GDPerformanceView.app */;
-			productType = "com.apple.product-type.application";
+			name = GDPerformaceView;
+			productName = GDPerformaceView;
+			productReference = E6E8BF4B211980490088E407 /* GDPerformaceView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A5C8CEB61DB6203D008D8E15 /* Project object */ = {
+		E6E8BF42211980490088E407 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = GD;
-				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Gavrilov Daniil";
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "华振宇";
 				TargetAttributes = {
-					A5C8CEBD1DB6203D008D8E15 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+					E6E8BF4A211980490088E407 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = A5C8CEB91DB6203D008D8E15 /* Build configuration list for PBXProject "GDPerformanceView" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = E6E8BF45211980490088E407 /* Build configuration list for PBXProject "GDPerformanceView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = A5C8CEB51DB6203D008D8E15;
-			productRefGroup = A5C8CEBF1DB6203D008D8E15 /* Products */;
+			mainGroup = E6E8BF41211980490088E407;
+			productRefGroup = E6E8BF4C211980490088E407 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5C8CEBD1DB6203D008D8E15 /* GDPerformanceView */,
+				E6E8BF4A211980490088E407 /* GDPerformaceView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A5C8CEBC1DB6203D008D8E15 /* Resources */ = {
+		E6E8BF49211980490088E407 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A53761611DB76D81000007B7 /* Main.storyboard in Resources */,
-				A537615F1DB76D81000007B7 /* Assets.xcassets in Resources */,
-				A53761601DB76D81000007B7 /* LaunchScreen.storyboard in Resources */,
+				E6DA88C1212E8D7D00A90170 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A5C8CEBA1DB6203D008D8E15 /* Sources */ = {
+		E6E8BF46211980490088E407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A53761621DB76D81000007B7 /* GDPerformanceMonitor.m in Sources */,
-				4277368A1E2BD55100E59793 /* GDWindowViewController.m in Sources */,
-				A537615E1DB76D81000007B7 /* AppDelegate.m in Sources */,
-				A53761651DB76D81000007B7 /* main.m in Sources */,
-				A53761631DB76D81000007B7 /* GDPerformanceView.m in Sources */,
-				A5DAC0811DB7B1A600AF26E6 /* GDMarginLabel.m in Sources */,
+				E6E8BF75211980AA0088E407 /* GDPerformanceMonitor.m in Sources */,
+				E6E8BF77211980AA0088E407 /* GDWindowViewController.m in Sources */,
+				E6E8BF74211980AA0088E407 /* GDPerformanceView.m in Sources */,
+				E6E8BF76211980AA0088E407 /* GDMarginLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		A53761531DB76D81000007B7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A53761541DB76D81000007B7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		A53761551DB76D81000007B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A53761561DB76D81000007B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		A5C8CED31DB6203D008D8E15 /* Debug */ = {
+		E6E8BF5D211980490088E407 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -244,38 +228,51 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A5C8CED41DB6203D008D8E15 /* Release */ = {
+		E6E8BF5E211980490088E407 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -286,33 +283,58 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A5C8CED61DB6203D008D8E15 /* Debug */ = {
+		E6E8BF60211980490088E407 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GDPerformanceView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GD.GDPerformanceView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GDPerformanceView/GDPerformanceMonitoring/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.huayu.GDPerformaceView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A5C8CED71DB6203D008D8E15 /* Release */ = {
+		E6E8BF61211980490088E407 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GDPerformanceView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GD.GDPerformanceView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GDPerformanceView/GDPerformanceMonitoring/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.huayu.GDPerformaceView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -320,25 +342,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5C8CEB91DB6203D008D8E15 /* Build configuration list for PBXProject "GDPerformanceView" */ = {
+		E6E8BF45211980490088E407 /* Build configuration list for PBXProject "GDPerformanceView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5C8CED31DB6203D008D8E15 /* Debug */,
-				A5C8CED41DB6203D008D8E15 /* Release */,
+				E6E8BF5D211980490088E407 /* Debug */,
+				E6E8BF5E211980490088E407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5C8CED51DB6203D008D8E15 /* Build configuration list for PBXNativeTarget "GDPerformanceView" */ = {
+		E6E8BF5F211980490088E407 /* Build configuration list for PBXNativeTarget "GDPerformaceView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5C8CED61DB6203D008D8E15 /* Debug */,
-				A5C8CED71DB6203D008D8E15 /* Release */,
+				E6E8BF60211980490088E407 /* Debug */,
+				E6E8BF61211980490088E407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A5C8CEB61DB6203D008D8E15 /* Project object */;
+	rootObject = E6E8BF42211980490088E407 /* Project object */;
 }
